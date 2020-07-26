@@ -1,20 +1,36 @@
 {{#paper-toolbar as |toolbar|}}
-<div class="md-toolbar-tools" id="mainBar">
+<div class="md-toolbar-tools" data-toggle="collapse" id="mainBar">
     {{#link-to 'index'}}{{#paper-button}} Home {{/paper-button}}{{/link-to}}
     {{#link-to 'aboutme'}}{{#paper-button}} About Me {{/paper-button}}{{/link-to}}
-    <div class="navRight">
-        {{#paper-button }} {{fa-icon "twitter"}} {{/paper-button}}
-        {{#paper-button }} {{fa-icon "linkedin"}} {{/paper-button}}
-        {{#paper-button }} {{fa-icon "facebook"}} {{/paper-button}}
-        {{#paper-button }} {{fa-icon "instagram"}} {{/paper-button}}
+
+    <div class="navRight" data-toggle="collapse">
+        Jorge Àvila Juarez
+        <a onclick="twitter()"> {{#paper-button }} {{fa-icon "twitter"}} {{/paper-button}} </a>
+        <a onclick="linkedin()"> {{#paper-button }} {{fa-icon "linkedin"}} {{/paper-button}}</a>
+        <a onclick="facebook()"> {{#paper-button}} {{fa-icon "facebook"}} {{/paper-button}} </a>
+        <a onclick="insta()"> {{#paper-button }} {{fa-icon "instagram"}} {{/paper-button}} </a>
     </div>
 </div>
-
+<script>
+    function twitter() {
+        window.open("https://twitter.com/_wtfjorge");
+    }
+    function linkedin() {
+        window.open("https://www.linkedin.com/in/jorgeavilajuarez/");
+    }
+    function facebook() {
+        window.open("https://facebook.com/wtfjorge");
+    }
+    function insta() {
+        window.open("https://instagram.com/jorgejuarezavila");
+    }
+</script>
 {{/paper-toolbar}}
 {{outlet}}
 <div class="banner-container">
     <div class="changes-banner">
-        <p class="banner-text"> This site is under production for ideas on how to improve, contact <a class="banner-text" href="mailto:jorge.juarez87@me.com"> Jorge Avila</a></p>
+        <p class="banner-text"> This site is under production for ideas on how to improve, contact <a
+                class="banner-text" href="mailto:jorge.juarez87@me.com"> Jorge Avila</a></p>
     </div>
 </div>
 <main>
