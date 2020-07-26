@@ -32,3 +32,17 @@ a.banner-text {
     padding: 0 0 0 0;
     text-decoration: underline;
 }
+footer {
+    position: auto;
+    border-top: 1px solid grey;
+    background-color: grey;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    height: 60px;
+    font-size: 18px;
+    padding: 13px;
+}
+#footername {
+    color: gold;
+}
