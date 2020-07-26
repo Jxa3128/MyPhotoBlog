@@ -1,0 +1,35 @@
+@import 'ember-paper';
+
+#mainBar {
+    background-color: grey;
+}
+.navRight {
+    margin-left: auto;
+}
+.changes-banner {
+    background-color: black;
+    border: 1px transparent red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    width: 90%;
+    max-width: 1110px;
+}
+.banner-container {
+    background-color: white;
+    padding: 1rem 0 0 0;
+}
+p.banner-text {
+    margin-bottom: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+a.banner-text {
+    margin-bottom: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: underline;
+    
+}
