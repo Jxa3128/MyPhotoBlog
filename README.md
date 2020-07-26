@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/Jxa3128/MyPhotoBlog.git` this repository
 * `cd my-photo-blog`
 * `npm install`
 
