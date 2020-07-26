@@ -1,5 +1,6 @@
-# my-photo-blog (about me - Jorge Avila 😇)
-This is a website created using EmberJS, NodeJS, HTML/SCSS and Javascript.
+# my-photo-blog created by: Jorge Avila Juarez 😇
+This is a website devloped using EmberJS, NodeJS, HTML/SCSS and Javascript.
+This `MyPhotoBlog` is a website entailing details about me. I hope you enjoy, Thank you!
 
 This README outlines the details of collaborating on this Ember application.
 
