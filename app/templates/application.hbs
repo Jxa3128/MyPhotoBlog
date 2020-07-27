@@ -27,7 +27,7 @@
 </script>
 {{/paper-toolbar}}
 
-{{outlet}}
+
 
 <div class="banner-container">
     <div class="changes-banner">
@@ -35,7 +35,9 @@
                 class="banner-text" href="mailto:jorge.juarez87@me.com"> Jorge Avila</a></p>
     </div>
 </div>
-<main class="pics">
+<main role = "main">
+    {{outlet}}
+</main>
     {{!-- <img src="/images/jorge_prof.jpeg">
     <img src="/images/jorge_mtn_back.jpeg">
     <img src="/images/NM_mtn.jpeg">
@@ -76,7 +78,6 @@
         {{!-- this is the last div of the pictures --}}
     </div>
 
-</main>
 <footer>
     <div class="container">
         <div class="d-flex justify-content-between">
