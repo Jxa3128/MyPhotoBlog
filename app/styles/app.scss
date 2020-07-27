@@ -51,7 +51,12 @@ footer {
 #footername {
   color: gold;
 }
-.pics {
-    //width: max-content;
-    
+.thumbnail:hover .overlay {
+    opacity: 1;
 }
+.sqs-block-content {
+    -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    -ms-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
+  }
