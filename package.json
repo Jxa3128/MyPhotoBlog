@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "description": "Small description for my-photo-blog goes here",
-  "repository": "",
+  "repository": "https://github.com/Jxa3128/MyPhotoBlog",
   "license": "MIT",
-  "author": "",
+  "author": "Jorge Avila",
   "directories": {
     "doc": "doc",
     "test": "tests"
